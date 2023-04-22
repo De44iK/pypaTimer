@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+.timer {
+    text-align: center;
+    backdrop-filter: blur(5.5px);
+	border-radius: 10px;
+	background: rgba(14, 0, 81, 0.3);
+	border: 10px solid rgba(255, 255, 255, 0.34);
+	height: 290px;
+	padding: 0px 70px;
+}
+
+.display {
+    font-size: 56px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.flash {
+    animation: flash 0.2s infinite alternate;
+}
+
+.controls{
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(103, 102, 102, 0.916);
+    font-size: 24px;
+    height: 100px; 
+}
+
+.knopka{
+	display: inline-block;	
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	margin-top: 50px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+
+.knopka:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 100%), 0 3px 6px rgb(0 0 0 / 8%);
+	background-color: #c3c3c3;
+}
+
+.knopka:active {
+	background-color: #0d851f;
+}
+.knopka1{
+	display:inline-block;	
+	padding: 0 25px;
+	margin: 0 25px 15px 0;
+	margin-top: 2px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	height: 20px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+
+.knopka1:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 100%), 0 3px 6px rgb(0 0 0 / 8%);
+	background-color: #c3c3c3;
+}
+
+.knopka1:active {
+	background-color: #0d851f;
+}
+
+@keyframes flash {
+    from {
+    	background-color: #00ff22;
+    }
+    to {
+    	background-color: rgb(255, 255, 255);
+    } 
+}

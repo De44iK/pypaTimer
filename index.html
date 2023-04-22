@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.png" type="image/x-icon">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="timer">
+        <div class="display" id="disp">
+          <span class="hours">00</span> :
+          <span class="minutes">00</span> :
+          <span class="seconds">00</span>
+        </div>
+        <div class="controls">
+            <div class="but">
+                <input type="number" id="hours" placeholder="HH">
+            </div>
+            <div class="but">
+                <input type="number" id="minutes" placeholder="MM">
+            </div>
+            <div class="but">
+                <input type="number" id="seconds" placeholder="SS">
+            </div>
+          
+          
+          <button class="start knopka">Start</button>
+          <button class="stop knopka">Stop</button>
+          <button class="reset knopka">Reset</button>
+          
+        </div>
+        <div class="font-size-buttons">
+            <button class="min knopka1" id="decrease-font-size"></button>
+            <button class="min knopka1" id="increase-font-size"></button>
+          </div>
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
